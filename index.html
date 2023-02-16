@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Rick and Morty info</title>
+  <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+  <link href="CSS/historiadu.css" rel="stylesheet" type="text/css" />
+  <link rel=" icon"
+    href="https://play-lh.googleusercontent.com/fXQVXTma1ENwAFjsxJ4IT6GntBr3RxWP3HMSLbNdvycl-0tscOQEeJIEAmehcNOt5hCp=w240-h480-rw">
+  <script src="https://kit.fontawesome.com/02ea262c11.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="principal">
+
+    <div id="bloque1">
+      <div id="contenedor1">
+        <p> ¡Encuentra toda la información acerca de los personajes de Rick and Morty!
+        </p>
+      </div>
+
+
+      <div id="contenedor2">
+
+        <button id="logo">
+          <img id="logoi" src="https://playbyplaytoys.es/wp-content/uploads/2021/01/rickymorty_bleed.png">
+        </button>
+
+        <div id="botones">
+          <button id="boton1">EPISODIOS</button>
+          <button id="boton2">ESPECIES</button>
+          <button id="boton3">LOCACIONES</button>
+          <button id="boton4">PERSONAJES</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="historia_usuario">
+
+      <div id="especies">
+        <button id="humanos">Humanos</button>
+        <button id="humanoides">Humanoides</button>
+        <button id="vampiros">Vampiros</button>
+        <button id="aliens">Aliens</button>
+        <button id="desconocido">Desconocido</button>
+        <button id="mitologico">Mitologico</button>
+        <button id="animal">Animal</button>
+        <button id="robot">Robot</button>
+        <button id="cronenberg">Cronenberg</button>
+        <button id="enfermedad">Enfermedad</button>
+
+      </div>
+      <div class="contenedor_card" id="informacion"></div>
+
+      <div id="origen">
+        <p> Ingresa el id de la locación a investigar: </p>
+        <input type="text" placeholder="Locación" id="lugar">
+        <button id="buscar"> Buscar</button>
+        <button id="borrar"> Borrar</button>
+        <br> <br>
+        <div class="contenedor_card" id="contenedor_p"> </div>
+      </div>
+
+      <div id="personajes2">
+        <p id="nombres_usuario4">Ingresa el id de tu personaje a investigar:</p>
+        <input type="number" placeholder="Personaje" id="character" min="1" max="826">
+        <button id="buscar_perso"> Buscar</button>
+        <button id="borrar_perso"> Borrar</button>
+        <br> <br>
+        <div class="contenedor_card" id="contenedor_p4"> </div>
+      </div>
+
+    </div>
+
+    <div id="contenidopri">
+
+      <div id="bloque2">
+        <img src="https://tec.com.pe/wp-content/uploads/2018/10/rick-and-morty-season-3.jpg">
+      </div>
+
+      <div id="enlace"></div>
+
+      <div id="bloque3">
+
+        <div id="titulop">Los 10 personajes más populares</div>
+
+        <div id="contenedori">
+
+          <div id="ima1">
+            <img src="https://cdn.superaficionados.com/imagenes/rick-sanchez-0-cke.jpg">
+
+          </div>
+
+          <div id="ima2">
+            <img src="https://cdn.superaficionados.com/imagenes/morty-smith-0-cke.jpg">
+          </div>
+
+          <div id="ima3"><img src="https://cdn.superaficionados.com/imagenes/summer-smith-cke.gif"></div>
+
+          <div id="ima4">
+            <img src="https://cdn.superaficionados.com/imagenes/beth-sanchez-smith-cke.jpg">
+          </div>
+
+          <div id="ima5">
+            <img src="https://cdn.superaficionados.com/imagenes/jerry-smith-0-cke.jpg">
+          </div>
+
+        </div>
+
+        <div id="contenedori2">
+
+          <div id="ima6"><img src="https://cdn.superaficionados.com/imagenes/snuffles-snowball-cke.jpg"></div>
+          <div id="ima7"><img src="https://cdn.superaficionados.com/imagenes/squanchy-cke.jpg"></div>
+          <div id="ima8"><img src="https://cdn.superaficionados.com/imagenes/bird-person-cke.jpg"></div>
+          <div id="ima9"><img src="https://cdn.superaficionados.com/imagenes/k-michael.gif"></div>
+          <div id="ima10">
+            <img src="https://cdn.superaficionados.com/imagenes/evil-morty-0.jpg">
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="creditos">
+
+        <div id="infor"> Página con fin de brindar información acerca de los personajes de la serie “Rick and Morty”
+        </div>
+
+        <div id="nombres">
+          <div id="rectang1"> Hecho por:</div>
+          <p><i class="fa-brands fa-github"></i> Lucero Escobar</p>
+          <p><i class="fa-brands fa-github"></i> Gabriela Cuervo</p>
+          <p><i class="fa-brands fa-github"></i> Agueda Castro</p>
+        </div>
+
+        <div id="derechos"><i class="fa-regular fa-copyright"></i> Todos lo derechos reservados (2023)</div>
+
+      </div>
+
+    </div>
+
+    <script src="JS/busqueda.js"></script>
+    <script src="JS/busqueda2.js"></script>
+    <script src="JS/busqueda4.js"></script>
+    <script src="JS/datos.js"></script>
+
+
+
+</body>
+
+
+
+</html>
